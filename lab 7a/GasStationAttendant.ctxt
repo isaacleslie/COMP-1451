@@ -1,0 +1,24 @@
+#BlueJ class context
+comment0.params=name\ numberOfDollarsStolenPerDay
+comment0.target=GasStationAttendant(java.lang.String,\ double)
+comment1.params=
+comment1.target=double\ getNumberOfDollarsStolenPerDay()
+comment10.params=
+comment10.target=java.lang.String\ getAttendantName()
+comment2.params=
+comment2.target=java.lang.String\ getDressCode()
+comment3.params=
+comment3.target=boolean\ isPaidSalary()
+comment4.params=
+comment4.target=boolean\ postSecondaryEducationRequired()
+comment5.params=
+comment5.target=java.lang.String\ getWorkVerb()
+comment6.params=
+comment6.target=double\ getOvertimePayRate()
+comment7.params=that
+comment7.target=boolean\ equals(java.lang.Object)
+comment8.params=
+comment8.target=int\ hashCode()
+comment9.params=that
+comment9.target=int\ compareTo(GasStationAttendant)
+numComments=11
