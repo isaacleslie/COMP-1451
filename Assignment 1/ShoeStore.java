@@ -48,7 +48,7 @@ class ShoeStore extends Store
         s = new Shoe(0.85, 32.5, 50, "Lite Kicks Rainbow Sprite", Material.PLASTIC, 10, name, ShoeType.CHILDREN, java.awt.Color.PINK);
         addItem(s);
 
-        name = new Name("Robbert", "Cobbler");
+        name = new Name("Robert", "Cobbler");
         s = new Shoe(1.15, 104, 160, "Wave", Material.LEATHER, 12, name, ShoeType.DRESS, java.awt.Color.BLACK);
         addItem(s);
         s = new Shoe(0.5, 39, 60, "Toachi", Material.CLOTH, 5, name, ShoeType.CHILDREN, java.awt.Color.BLUE);
@@ -103,9 +103,8 @@ class ShoeStore extends Store
 
         while(it.hasNext()){
             Shoe s = it.next();
-            if(s.getDesigner().getFullName().equalsIgnoreCase(designerName)) {
-                System.out.println(s.getDesigner().getFullName() + "offers a size-" + s.getSize() + " " +
-                    s.getShoeType().getTheShoeType() + " "  + s.getDescription());
+            if(s.getDesigner().getFullName().trim().equalsIgnoreCase(designerName)) {
+                System.out.println(s.getDesigner().getFullName() + "offers a size-" + s.getSize() + " " + s.getShoeType().getTheShoeType() + " " + s.getDescription());
             }
         }
     }
@@ -159,10 +158,9 @@ class ShoeStore extends Store
             Shoe s = it.next();
             if(s.getDesigner().getFullName().trim().equalsIgnoreCase(designer.getFullName().trim())) {
                 numberOfShoesByDesigner++;
-
             }
         }
-        System.out.println("This store has " + numberOfShoesByDesigner + " shoes designed by " + designer.getFullName());
+        System.out.println("This store has " + numberOfShoesByDesigner + " shoes designed by " + designer.getFullName().trim());
     }
 
     /**
@@ -239,13 +237,13 @@ class ShoeStore extends Store
             if(m == s.getMaterial()){
                 if(s.getDesigner().getFullName().equalsIgnoreCase(designer.getFullName())) {
                     System.out.println("The " + s.getDescription() + " is a " + s.getMaterial().getTheMaterial() +
-                        " offered by " + s.getDesigner().getFullName());
+                        " shoe offered by " + s.getDesigner().getFullName().trim());
                     noMatch = true;
                 }
             }
         }
         if(noMatch == false) {
-            System.out.println("This store has no " + m.getTheMaterial() + " shoes designed by " + designer.getFullName());
+            System.out.println("This store has no " + m.getTheMaterial() + " shoes designed by " + designer.getFullName().trim());
         }
     }
     
