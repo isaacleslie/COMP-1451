@@ -161,7 +161,7 @@ class BookStore extends Store
         while(it.hasNext()) {
             Book b = it.next();
             if(b.getAuthorLastName().equalsIgnoreCase(lastName)) {
-                System.out.println(b.getAuthorLastName() + " wrote " + b.getTitle() + " in " + b.getYearPublished());
+                System.out.println(b.getAuthorLastName() + " wrote " + b.getTitle());
             }
         }
     }
@@ -252,7 +252,7 @@ class BookStore extends Store
             }
         }
         if(displayedSome == false) {
-            System.out.println("No authors were born on " + dayOfTheWeek);
+            System.out.println("No authors were born on a " + dayOfTheWeek);
         }
     }
     
@@ -274,7 +274,7 @@ class BookStore extends Store
             }
         }
         if(displayedSome == false) {
-            System.out.println("No books were published on " + dayOfTheWeek);
+            System.out.println("No books were published on a " + dayOfTheWeek);
         }
     }
     

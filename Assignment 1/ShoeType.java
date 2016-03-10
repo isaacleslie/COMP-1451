@@ -12,8 +12,8 @@ public enum ShoeType
     MENS("men's"),
     WOMENS("women's"),
     CHILDREN("children's"),
-    SPORTS("sports"),
-    DRESS("dress");
+    SPORTS("sports's"),
+    DRESS("dress's");
     private String theShoeType;
     private static Map<String, ShoeType> lookup = new HashMap<String, ShoeType> ();
     static{
