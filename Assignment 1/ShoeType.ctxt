@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.params=theShoeType
+comment0.target=ShoeType(java.lang.String)
+comment0.text=\r\n\ ShoeType\ Constructor\r\n\r\n\ @param\ theShoeType\ A\ parameter\r\n
+comment1.params=
+comment1.target=java.lang.String\ getTheShoeType()
+comment1.text=\r\n\ Method\ getTheShoeType\r\n\r\n\ @return\ The\ return\ value\r\n
+comment2.params=theShoeType
+comment2.target=ShoeType\ get(java.lang.String)
+comment2.text=\r\n\ Method\ get\r\n\r\n\ @param\ theShoeType\ A\ parameter\r\n\ @return\ The\ return\ value\r\n
+numComments=3

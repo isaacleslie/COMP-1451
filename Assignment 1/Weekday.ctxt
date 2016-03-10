@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.params=literal
+comment0.target=Weekday(java.lang.String)
+comment0.text=\r\n\ Weekday\ Constructor\r\n\r\n\ @param\ literal\ A\ parameter\r\n
+comment1.params=searchTerm
+comment1.target=Weekday\ get(java.lang.String)
+comment1.text=\r\n\ Method\ get\r\n\r\n\ @param\ searchTerm\ A\ parameter\r\n\ @return\ The\ return\ value\r\n
+comment2.params=
+comment2.target=java.lang.String\ toString()
+comment2.text=\r\n\ Method\ toString\r\n\r\n\ @return\ The\ return\ value\r\n
+numComments=3

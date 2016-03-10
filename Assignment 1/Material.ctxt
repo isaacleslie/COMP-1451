@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.params=theMaterial
+comment0.target=Material(java.lang.String)
+comment0.text=\r\n\ Creates\ a\ Material\ object\ and\ assigns\ it\ to\ the\ String\ theMaterial\r\n\ \r\n\ @param\ theMaterial\ a\ String\ of\ the\ material\r\n
+comment1.params=
+comment1.target=java.lang.String\ getTheMaterial()
+comment1.text=\r\n\ Returns\ the\ Material\r\n\ \r\n\ @return\ the\ material\r\n
+comment2.params=theMaterial
+comment2.target=Material\ get(java.lang.String)
+comment2.text=\r\n\ Creates\ a\ Material\ enum\ from\ a\ String,\ allowing\ you\ to\ look\ up\ a\ Material\r\n\ from\ a\ String\r\n\r\n\ @param\ theMaterial\ String\ of\ material\r\n\ @return\ Material\ enum\r\n
+numComments=3

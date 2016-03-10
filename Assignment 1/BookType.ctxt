@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.params=theBookType
+comment0.target=BookType(java.lang.String)
+comment0.text=\r\n\ BookType\ Constructor\r\n\r\n\ @param\ theBookType\ book's\ genre\r\n
+comment1.params=
+comment1.target=java.lang.String\ getTheBookType()
+comment1.text=\r\n\ returns\ the\ book's\ genre\r\n\r\n\ @return\ genre\ of\ book\r\n
+comment2.params=theBookType
+comment2.target=BookType\ get(java.lang.String)
+comment2.text=\r\n\ Allows\ you\ to\ create\ a\ Material\ enum\ from\ a\ String\ input\r\n\r\n\ @param\ theBookType\ A\ parameter\r\n\ @return\ The\ return\ value\r\n
+numComments=3
